@@ -25,6 +25,7 @@ app.use(express.json());
 
 //connect mongodb
 connectDB();
+//route 
 app.get("/",(req,res)=>{
   res.json("Welcome to DDD University")
 })
