@@ -26,8 +26,8 @@ app.use(express.json());
 //connect mongodb
 connectDB();
 //route 
-app.get("/",(req,res)=>{
-  res.json("Welcome to DDD University")
+app.get("/", (req, res)=>{
+  res.json("Welcome to the university")
 })
 //routes
 const userRoutes = require("./routes/User");
